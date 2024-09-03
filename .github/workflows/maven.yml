@@ -77,7 +77,7 @@ jobs:
 
     steps:
     - name: Download MQ Distribution
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: mq-distribution
     - name: Unzip MQ Distribution
@@ -146,7 +146,7 @@ jobs:
               -lmqcrt
         done
     - name: Download MQ Distribution
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: mq-distribution
     - name: Unpack MQ Distribution
